@@ -1,6 +1,8 @@
-package filter
+package main
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestDo(t *testing.T) {
 	params := map[string]interface{}{
@@ -9,7 +11,7 @@ func TestDo(t *testing.T) {
 
 	presetConditions := []Condition{
 		{
-			Key:      "version",
+			Keyword:  "version",
 			Operator: "==",
 			Value:    "13.13.0.0",
 		},

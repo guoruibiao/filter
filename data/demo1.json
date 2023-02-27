@@ -1,0 +1,16 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "conditions": [
+    {
+      "keyword": "version",
+      "operator": "==",
+      "value": "13.25.0.10"
+    },
+    {
+      "keyword": "uid",
+      "operator": "in",
+      "value": ["12345", "123456789"]
+    }
+  ]
+}
